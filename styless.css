@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #d8b4a0;
+  background-color: #38b348;
 }
 
 header {
@@ -9,8 +9,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #a67c68;
-  color: white;
+  background-color: #13b731;
+  color: rgb(25, 25, 186);
 }
 
 .menu-icon {
@@ -33,7 +33,7 @@ header {
  .menu-icon .barra {
   width: 28px;
   height: 4px;
-  background-color: #fff;
+  background-color: #2d0de2;
   margin: 4px 0;
   border-radius: 2px;
   display: block;
@@ -60,13 +60,13 @@ main {
 
 @media (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(98, 92, 135);
   }
 }
 
 @media (max-width: 800px) {
   body {
-    background-color: #a67c68;
+    background-color: #2662a6;
   }
 }
 
@@ -74,8 +74,8 @@ nav {
   position: absolute;
   top: 50px;
   left: 20px;
-  background-color: #f5f4f3;
-  border: 1px solid #a67c68;
+  background-color: #1546db;
+  border: 1px solid #168ac4;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -92,7 +92,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background-color: #f0e6e2;
+  background-color: #1a6da0;
 }
 
 .hidden {
