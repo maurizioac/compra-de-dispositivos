@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta de Dispositivos</title>
+  <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <header>
+      <button id="menu-icon" class="menu-icon" aria-label="Abrir menú">
+        <span class="barra"></span>
+        <span class="barra"></span>
+        <span class="barra"></span>
+      </button>
+      <h1>Venta de Dispositivos</h1>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Samsung</a></li>
+          <li><a href="#">Computadoras</a></li>
+          <li><a href="#">Apple Watch</a></li>
+          <li><a href="#">Xiaomi</a></li>
+          <li><a href="#">Smartwatch Xiaomi</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="movie-grid">
+        <div class="dispositivos-item">
+          <img src="imagenes/02.jpeg" alt="iPhone 16" />
+        </div>
+        <div class="dispositivos-item">
+          <img src="imagenes/03.jpeg" alt="Smartwatch Samsung" />
+        </div>
+        <div class="dispositivos-item">
+          <img src="imagenes/05.jpeg" alt="Computadoras" />
+        </div>
+        <div class="dispositivos-item">
+          <img src="imagenes/06.jpeg" alt="Xiaomi" />
+        </div>
+        <div class="dispositivos-item">
+          <img src="imagenes/04.jpeg" alt="Samsung" />
+        </div>
+        <div class="dispositivos-item">
+          <img src="imagenes/07.jpeg" alt="Smartwatch Xiaomi" />
+        </div>
+      </div>
+    </main>
+    <script type="text/javascript">
+      document.getElementById("menu-icon").addEventListener("click", function () {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
