@@ -44,7 +44,25 @@
   </head>
   <body>
     <header>
+      <button id="menu-icon" class="menu-icon" aria-label="Abrir menú">
+        <span class="barra"></span>
+        <span class="barra"></span>
+        <span class="barra"></span>
+      </button>
       <a href="index.html" style="text-decoration:none;color:inherit;"><h1>Contacto</h1></a>
+      <nav id="menu" class="hidden">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Samsung</a></li>
+          <li><a href="#">Computadoras</a></li>
+          <li><a href="#">Apple Watch</a></li>
+          <li><a href="#">Xiaomi</a></li>
+          <li><a href="#">Smartwatch Xiaomi</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="contacto-container">
@@ -78,5 +96,11 @@
         </div>
       </div>
     </main>
+    <script type="text/javascript">
+      document.getElementById("menu-icon").addEventListener("click", function () {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      });
+    </script>
   </body>
 </html>
